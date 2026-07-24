@@ -4,8 +4,8 @@ import sys
 from telegram import Bot
 from telegram.error import TelegramError, Conflict
 
-TOKEN = os.environ.get("BOT_TOKEN")
-CHANNEL_ID = os.environ.get("CHANNEL_ID")
+TOKEN = os.environ.get("8913309887:AAGsD6Ye9EnD1MH9xQHaPPgssTgiZTDSC4w")
+CHANNEL_ID = os.environ.get("https://t.me/test222222_3333")
 
 if not TOKEN or not CHANNEL_ID:
     print("❌ خطا: متغیرهای محیطی TOKEN و CHANNEL_ID را تنظیم کنید!")

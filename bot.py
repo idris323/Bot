@@ -24,8 +24,8 @@ CHANNEL_ID = os.environ.get("https://t.me/test222222_3333")
 if not TOKEN or not CHANNEL_ID:
     print("❌ خطا: متغیرهای محیطی TOKEN و CHANNEL_ID را تنظیم کنید!")
     print("💡 برای تست محلی، می‌تونی مستقیم تو کد هم بدی:")
-    print('TOKEN = "توکن_ربات"')
-    print('CHANNEL_ID = "@username"')
+    print('TOKEN = "8913309887:AAGsD6Ye9EnD1MH9xQHaPPgssTgiZTDSC4w"')
+    print('CHANNEL_ID = "https://t.me/test222222_3333"')
     sys.exit(1)
 
 bot = Bot(token=TOKEN)
